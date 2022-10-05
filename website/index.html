@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Araba.com</title>
+    <link rel="stylesheet" href="styles/style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.jpg" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="active">Anasayfa</a>
+            <a href="#cars">Araçlarımız</a>
+            <a href="#discount">Kampanyalarımız</a>
+            <a href="#about">Hakkımızda</a>
+            <a href="#review">Müşteri Memnuniyeti</a>
+            <a href="#contact">İletişim</a>
+            <a href="#table">Bayilerimiz</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-magnifying-glass-location"></i>
+            </button>          
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form ">
+            <div class="bayi"></div>
+            <input type="text" class="search-input" placeholder="Sana En Yakın Olan Bayiyi Bul">
+            <i class="fas fa-search"></i>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+        <h3>HAYALİNİZDEKİ ARACA KAVUŞUN</h3>
+        <P>Araba.com ile araç sahibi olmak artık çok kolay hemen başvurun sizinle iletişime geçelim.</P>
+        <a href="#" class="btn">Şimdi başvur</a>
+        </div>
+    </section>
+    <section class="cars" id="cars">
+        <h1 class="heading">ARAÇLARIMIZ</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="./images/honda.car1.jpeg" alt="HONDA">
+                    <span class="cars-category">C SEGMENT</span>
+                    <h3>HONDA CIVIC</h3>                    
+                    <div class="price">
+                    <div class="rent-price">100$</div>
+                    <div class="buy-price">10000$</div>
+                    </div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">kirala</a>
+                    <a href="#" class="btn">satın al</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="./images/bmw.car2.jpeg" alt="BMW">
+                    <span class="cars-category">D SEGMENT</span>
+                    <h3>BMW 3.20</h3>
+                    <div class="price">
+                    <div class="rent-price">200$</div>
+                    <div class="buy-price">20000$</div>
+                    </div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">kirala</a>
+                    <a href="#" class="btn">satın al</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="./images/audi.car3.jpeg" alt="AUDI">
+                    <span class="cars-category">D SEGMENT</span>
+                    <h3>AUDI A5</h3>
+                    <div class="price">
+                    <div class="rent-price">190$</div>
+                    <div class="buy-price">19000$</div>
+                    </div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">kirala</a>
+                    <a href="#" class="btn">satın al</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="./images/renault.car4.png" alt="RENAULT">
+                    <span class="cars-category">B SEGMENT</span>
+                    <h3>RENAULT CLIO</h3>
+                    <div class="price">
+                    <div class="rent-price">60$</div>
+                    <div class="buy-price">6000$</div>
+                    </div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">kirala</a>
+                    <a href="#" class="btn">satın al</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="./images/ferrari.car5.jpg" alt="FERRARI">
+                    <span class="cars-category">S SEGMENT</span>
+                    <h3>FERRARI 488 GTB</h3>
+                    <div class="price">
+                    <div class="rent-price">400$</div>
+                    <div class="buy-price">40000$</div>
+                    </div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">kirala</a>
+                    <a href="#" class="btn">satın al</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="discount" id="discount">
+        <h1 class="heading">KAMPANYALARIMIZ</h1>
+    <div class="offer-containers">
+        <div class="offer">
+            <div class="offer-im">
+                <img src="/images/kayseri.png" alt="discount">
+            </div>
+            <div class="offer-con">
+                <h2>Araba.com Artık Kayseri'de Mutlu Edecek!</h2>
+                <p>Kayseri araç kiralama ve online rent a car hizmeti Araba.com'da. Kayseri Havalimanı araç kiralama hizmetimizden en ucuz fiyatlarla yararlanmak için tıkla!</p>
+                <a href="#" class="btn">
+                    <i class="fa-solid fa-car"></i>
+                </a>
+            </div>
+        </div>
+        <div class="offer">
+            <div class="offer-im">
+                <img src="/images/diyarbakir.png" alt="discount">
+            </div>
+            <div class="offer-con">
+                <h2>Diyarbakır'da Araç Kiralamanın Tam Zamanı</h2>
+                <p>Diyarbakır araç kiralama ve online rent a car hizmeti Araba.com'da. Diyarbakır şehir şube araç kiralama hizmetimizden en ucuz fiyatlarla yararlanmak için hemen tıkla!</p>
+                <a href="#" class="btn">
+                    <i class="fa-solid fa-car"></i>
+                </a>
+            </div>
+        </div>
+        <div class="offer">
+            <div class="offer-im">
+                <img src="/images/tekirdağ.png" alt="discount">
+            </div>
+            <div class="offer-con">
+                <h2>Tekirdağ 'da Araç Kiralamanın Tam Zamanı</h2>
+                <p>Tekirdağ araç kiralama ve online rent a car hizmeti Araba.com'da. Tekirdağ ve Çorlu'da araç kiralama hizmetimizden en ucuz fiyatlarla yararlanmak için hemen tıkla!</p>
+                <a href="#" class="btn">
+                    <i class="fa-solid fa-car"></i>
+                </a>
+            </div>
+        </div>
+        <div class="offer">
+            <div class="offer-im">
+                <img src="/images/mersin.png" alt="discount">
+            </div>
+            <div class="offer-con">
+                <h2>Mersin'de Yazın Tadını Araba.com ile Çıkarmanın Tam Zamanı</h2>
+                <p>Mersin araç kiralama ve online rent a car hizmeti Araba.com'da. İçel'de araç kiralama hizmetimizden en ucuz fiyatlarla yararlanmak için hemen tıkla!</p>
+                <a href="#" class="btn">
+                    <i class="fa-solid fa-car"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="about" id="about">
+        <h1 class="heading">HAKKIMIZDA</h1>
+        <div class="row">
+            <div class="image">
+                <img src="/images/about.png" alt="about">
+            </div>
+            <div class="content">
+                <h3>Hizmet Kalitemizin Sırrı Nedir ?</h3>
+                <p>Türkiye’nin en büyük üçüncü şehri olan İzmir, dağlarla çevrili büyük bir körfez etrafında konumlanmış bir sahil kentidir. Tipik bir Akdeniz şehri atmosferine sahip olan İzmir’in tarihi binlerce yıl öncesine dayanmaktadır. İzmir, geniş bulvarları, palmiye ağaçları, iki katlı ve cumbalı geleneksel evleri, tarihi camileri ve kiliseleriyle büyük ilgi gören ve gerek yerli gerek yabancı milyonlarca ziyaretçiyi kendine çeken önemli bir turizm merkezidir. İzmir ve çevresindeki tarihi yerler ile doğal güzelliklere yapacağınız seyahatleriniz öncesinde, Skyscanner’ın arama motorunu kullanarak faklı araba kiralama şirketlerinin fiyatlarını, tek bir sitede görebilir ve İzmir Adnan Menderes Havalimanı’nda sizin için en uygun aracı kiralayabilirsiniz.</p>
+            </div>
+        </div>
+    </section>
+    <section class="review" id="review">
+        <h1 class="heading">KULLANICI YORUMLARI</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="/images/quote.png" alt="quote">
+                <p>Uzun süredir Araba.com kullanıyorum ve farkını diğer firmalar ile mecburen iletişime geçmek zorunda kaldığımda anlıyorum. Gerçekten hizmetiniz takdire şayan; müşteri beklentisine yönelik sistemin iyi bir çalışma şekli var. Yolunuz açık olsun.</p>
+                <div class="box-bottom">
+                    <img src="/images/avatar-1.png" alt="avatar-1" class="user">
+                    <h3>Penelope Wash</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/images/quote.png" alt="quote">
+                <p>Bir Kere Hizmet anlayışı çok iyi. Üstelik her sıkıntıda verdikleri destek önemli. 2015 ten beri bireysel 2019 dan beri kurumsal çalışmaktayım. Fiyatları verdikleri hizmetlere ve rakiplerine göre çok uygun. A firması B hizmeti için 3x Ücret isterken Araba.com 3/1 fiyatına veriyor.Her şey için teşekkürler.</p>
+                <div class="box-bottom">
+                    <img src="/images/avatar-2.png" alt="avatar-2" class="user">
+                    <h3>Alex Gimenez</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/images/quote.png" alt="quote">
+                <p>Yaklaşık 6-7 yıldır Araba.com ile çalışmaktayım, bugüne kadar yaşadığım her sorunda anında geri dönüş yaparak çözüm yolu sağladılar. Türkiye'de bu şekilde hizmet verebilen başka firma tanımıyorum.</p>
+                <div class="box-bottom">
+                    <img src="/images/avatar-3.png" alt="avatar-3" class="user">
+                    <h3>Lisa Kate</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="heading">İLETİŞİM</h1>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4084411.0089985505!2d30.05862877648667!3d1.3671057454638482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1771a69f6499f945%3A0x874155ce43014549!2sUganda!5e0!3m2!1str!2str!4v1664794078750!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <form>
+                <h3>İletişime Geç</h3>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="isim">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="number" placeholder="numara">
+                </div>
+                <input type="submit" class="btn" value="gönder">
+            </form>
+        </div>
+    </section>
+    <section class="table" id="table">
+        <table >
+            <caption>Bayi Listesi</caption>
+            <tr>
+                <th>İl</th>
+                <th>İlçe</th>   
+                <th>Bayi İsmi</th>   
+                <th>Adres</th>   
+                <th>Telefon</th>   
+            </tr>
+            <tr>
+                <td>Adana</td>   
+                <td>ÇUKUROVA</td>
+                <td>X TİCARET</td>
+                <td>MAHFESIĞMAZ MAH</td>
+                <td>05320000000</td>
+            </tr>
+            <tr>
+                <td>ADANA</td>
+                <td>KOZAN</td>
+                <td>X CAR</td>
+                <td>KARACAOĞLAN MAH</td>
+                <td>05314444444</td>
+            </tr>
+            <tr>
+                <td>AMASYA</td>
+                <td>SULUOVA</td>
+                <td>XX TİCARET</td>
+                <td>YENİ MH.</td>
+                <td>05466666666</td>
+            </tr>
+            <tr>
+                <td>ANKARA</td>
+                <td>YENİMAHALLE</td>
+                <td>XX AVM</td>
+                <td>Kardelen Mah.</td>
+                <td>03127777777</td>
+            </tr>
+            <tr>
+                <td>AYDIN</td>
+                <td>KUŞADASI</td>
+                <td>XX Şehir</td>
+                <td>Türkmen Mah.</td>
+                <td>05018888888</td>
+            </tr>
+            <tr>
+                <td>ÇANAKKALE</td>
+                <td>MERKEZ</td>
+                <td>Çanakkale</td>
+                <td>Cevatpaşa Mah.</td>
+                <td>05309999999</td>
+            </tr>
+            <tr>
+                <td>DİYARBAKIR</td>                
+                <td>BAĞLAR</td>                
+                <td>Diyarbakır</td>
+                <td>Bağcılar Mah.</td>
+                <td>05315555555</td>
+            </tr>
+            <tr>
+                <td>GAZİANTEP</td>
+                <td>OĞUZELİ</td>
+                <td>Gaziantep Havalimanı</td>
+                <td>Gaziantep Havalimanı</td>
+                <td>05383333333</td>
+            </tr>
+            </table>
+    </section>
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Ara">
+            <a href="#">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+        <div class="credit">Ege Özata tarafından yapıldı | Tüm hakları saklıdır.</div>
+    </section>
+    <script src="/js/script.js"></script>    
+</body>
+</html>

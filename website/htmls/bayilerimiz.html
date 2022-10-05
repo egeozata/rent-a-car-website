@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Araba.com</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/log.jpg" alt="logo">
+        </a>
+        <nav class="navbar ">
+            <a href="index.html">Anasayfa</a>            
+            <a href="araclarimiz.html">Araçlarımız</a>
+            <a href="kampanyalarimiz.html">Kampanyalarımız</a>
+            <a href="hakkimizda.html">Hakkımızda</a>
+            <a href="musteri-memnuniyeti.html">Müşteri Memnuniyeti</a>
+            <a href="iletisim.html">İletişim</a>
+            <a href="bayilerimiz.html" class="active">Bayilerimiz</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-magnifying-glass-location"></i>
+            </button>          
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form ">
+            <div class="bayi"></div>
+            <input type="text" class="search-input" placeholder="Sana En Yakın Olan Bayiyi Bul">
+            <i class="fas fa-search"></i>
+        </div>
+    </header>
+    <section class="table">
+        <table >
+            <caption>Bayi Listesi</caption>
+            <tr>
+                <th>İl</th>
+                <th>İlçe</th>   
+                <th>Bayi İsmi</th>   
+                <th>Adres</th>   
+                <th>Telefon</th>   
+            </tr>
+            <tr>
+                <td>Adana</td>   
+                <td>ÇUKUROVA</td>
+                <td>ABDULSAMED ÖZDEN KIRTASİYE ÜRÜNLERİ TİCARET</td>
+                <td>MAHFESIĞMAZ MAH.DAMAR ARIKOĞLU BULV. GİZİR APT. ABLOKNO:42/A</td>
+                <td>05321719009</td>
+            </tr>
+            <tr>
+                <td>ADANA</td>
+                <td>KOZAN</td>
+                <td>BAHİTTİN DEMİRBAĞ-KARDEŞLER KİTAP KIRTASİYE</td>
+                <td>KARACAOĞLAN MAH TURGUT ÖZAL BLV. NO:13/B 1</td>
+                <td>05313851356</td>
+            </tr>
+            <tr>
+                <td>AMASYA</td>
+                <td>SULUOVA</td>
+                <td>ERKAN ÇİFTÇİ -BİLGİ KİTAP KIRTASİYE</td>
+                <td>YENİ MH. DEREBOYU CD. DUHA SİTESİ ALTI NO:2</td>
+                <td>05462369375</td>
+            </tr>
+            <tr>
+                <td>ANKARA</td>
+                <td>YENİMAHALLE</td>
+                <td>Ankara Atlantis AVM</td>
+                <td>Kardelen Mah. Başkent Bulvarı No:224-H/74 Atlantis AVM Yenimahalle/Ankara</td>
+                <td>03122562040</td>
+            </tr>
+            <tr>
+                <td>AYDIN</td>
+                <td>KUŞADASI</td>
+                <td>Aydın Kuşadası Şehir</td>
+                <td>Türkmen Mah. Turgut Özal Bulvarı 61/A KIA Plaza Kuşadası / Aydın</td>
+                <td>05013551355</td>
+            </tr>
+            <tr>
+                <td>ÇANAKKALE</td>
+                <td>MERKEZ</td>
+                <td>Çanakkale Şehir</td>
+                <td>Cevatpaşa Mah. Kayserili Ahmet Paşa Cad. No:17/2 Merkez/Çanakkale</td>
+                <td>05308786735</td>
+            </tr>
+            <tr>
+                <td>DİYARBAKIR</td>                
+                <td>BAĞLAR</td>                
+                <td>Diyarbakır Şehir</td>
+                <td>Bağcılar Mah. Mehmet Uzun Cad. No:11/3 Bağlar/Diyarbakır</td>
+                <td>05316983010</td>
+            </tr>
+            <tr>
+                <td>GAZİANTEP</td>
+                <td>OĞUZELİ</td>
+                <td>Gaziantep Havalimanı</td>
+                <td>Gaziantep Havalimanı Oğuzeli-Gaziantep</td>
+                <td>05382769124</td>
+            </tr>
+            </table>
+    </section>
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Ara">
+            <a href="#">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+        <div class="credit">Ege Özata tarafından yapıldı | Tüm hakları saklıdır.</div>
+    </section>   
+    <script src="/js/script.js"></script>
+</body>
+</html>
